@@ -1,0 +1,26 @@
+.favouritelist{
+  padding-top: 2rem;          /* py-8 = 32px top */
+  padding-bottom: 2rem;       /* py-8 = 32px bottom */
+  max-width: 1280px;          /* container default at large screen (varies by breakpoint) */
+  margin-left: auto;          /* mx-auto: center horizontally */
+  margin-right: auto;
+  display: flex;              /* flex */
+  flex-wrap: wrap;            /* flex-wrap */
+  justify-content: center;    /* justify-center */
+  gap: 2.5rem;   
+}
+
+.favouritelistsection{
+  font-size: 1.25rem;      /* text-xl = 20px */
+  line-height: 1.75rem;    /* Tailwind default for text-xl */
+  text-align: center;      /* text-center */
+  color: rgb(0, 0, 0);     /* text-black */
+  font-weight: 800; 
+}
+
+@media (min-width: 1024px) {
+    .favouritelistsection{
+          font-size: 2.25rem;    /* text-4xl = 36px */
+    line-height: 2.5rem; 
+    }
+}

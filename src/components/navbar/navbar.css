@@ -1,0 +1,37 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto; 
+  padding: 2rem;
+}
+
+.title{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.search-input{
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 10px 15px -3px rgba(254, 202, 202, 1.75);
+}
+
+.navbar{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+.nav{
+    display: flex;
+}

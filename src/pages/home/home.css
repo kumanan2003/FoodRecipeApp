@@ -1,0 +1,23 @@
+.home-section {
+  padding-top: 2rem;       /* py-8 = padding-top & padding-bottom: 2rem */
+  padding-bottom: 2rem;
+  max-width: 1280px;        /* container-like width */
+  margin-left: auto;        /* mx-auto */
+  margin-right: auto;
+  display: flex;            /* flex */
+  flex-wrap: wrap;          /* flex-wrap */
+  justify-content: center;  /* justify-center */
+  gap: 2.5rem;              /* gap-10 = 2.5rem = 40px */
+}
+
+.home-text{
+  /* height: 10rem; h-40 = 10rem (160px) */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 0.75rem; /* rounded-xl = 12px */
+  font-weight: bolder;
+  font-size: xx-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
